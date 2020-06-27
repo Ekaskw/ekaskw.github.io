@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 const KI = document.getElementById('KI');
 const KD = document.getElementById('KD');
-const Indikator = document.getElementById('Rule_Peserta');
+const Indikator = document.getElementById('Indikator');
 
 KI.addEventListener('click', function () {
     Swal.fire({
@@ -35,7 +35,7 @@ KD.addEventListener('click', function () {
 Indikator.addEventListener('click', function () {
     Swal.fire({
         type: 'info',
-        title: 'Daftar Lomba',
+        title: 'Indikator dan Tujuan Pembelajaran',
         html: '<br><br><p class="ml-3"><b>Indikator Pembelajaran</b></p>' +
             '<br> <p class="ml-4">1. Menjelaskan isi teks yang didengar yang berkaitan: اَلْعَدَدُ ۱۰-۱</p>' +
             '<br> <p class="ml-4">2. Menerapkan percakapan terkait topik : اَلْعَدَدُ ۱۰-۱' +
