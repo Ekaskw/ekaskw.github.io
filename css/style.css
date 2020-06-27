@@ -1,0 +1,8 @@
+.hilang{
+    transition: 2s;
+    display: none;
+}
+
+.konten{
+    opacity: 0;
+}
